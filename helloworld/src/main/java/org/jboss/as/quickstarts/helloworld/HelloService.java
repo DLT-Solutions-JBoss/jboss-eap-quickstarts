@@ -25,7 +25,7 @@ package org.jboss.as.quickstarts.helloworld;
 public class HelloService {
 
     String createHelloMessage(String name) {
-        return "Hello OpenShift Enterprise v3 " + name + "!";
+        return "Hello " + name + "!";
     }
 
 }
